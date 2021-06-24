@@ -1,0 +1,49 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+.header-banner{
+  background-image: url("./images/header.jpg");
+  background-size: cover;
+  height: 85vh;
+}
+
+.logo{
+  height: 62px;
+  width: 115px;
+}
+
+.banner-text{
+  text-align: center;
+  color: white;
+}
+
+.navbar-button{
+  height: 40px;
+  width: 140px;
+  margin-right: 3px !important;
+}
+
+/* for sm and more  */
+
+@media (min-width: 576px) {
+  .logo{
+    height: 76px;
+    width: 172px;
+  }
+
+  .bannerform{
+    width: 600px !important;
+  }
+  
+ }
