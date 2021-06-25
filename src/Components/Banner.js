@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="header-banner d-flex align-items-center">
         <Container>
           <div className="banner-text ">
-            <h1 >Techforing Vulnarability scanner</h1>
+            <h1 >TECHFORING VULNARABILITY SCANNER</h1>
             <p className="pop">
               THIRDEYE is an online vulnerability scanner that finds cyber
               security weaknesses in your digital infrastructure before the

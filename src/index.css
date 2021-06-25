@@ -13,7 +13,7 @@ code {
 } */
 
 .header-banner{
-  background-image: url("./images/header.jpg");
+  background-image: url("./images/faceback.jpg");
   background-size: cover;
   height: 85vh;
 }
@@ -34,6 +34,21 @@ code {
   margin-right: 3px !important;
 }
 
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #182F59;
+  font-weight: bolder;
+  font-size:2rem;
+  display: inline-block; 
+  width: 1rem;
+  /* margin: 0 0.8rem 0 1rem; */
+  padding-top: 1rem;
+}
+
 /* for sm and more  */
 
 @media (min-width: 576px) {
@@ -42,8 +57,28 @@ code {
     width: 172px;
   }
 
+  .header-banner{
+    background-image: url("./images/header.jpg");
+    background-size: cover;
+    height: 85vh;
+  }
+
   .bannerform{
     width: 600px !important;
   }
+
+  /* ul {
+    list-style: none;
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color: #182F59;
+    font-weight: bold;
+    font-size:1.5rem;
+    display: inline-block; 
+    width: 1em;
+    margin-left: 1em;
+  } */
   
  }
