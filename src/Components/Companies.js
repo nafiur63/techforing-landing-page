@@ -3,10 +3,11 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const Companies = () => {
   return (
-    <>
+    <div style={{backgroundColor:"#F7F7FD"}}>
       <Container className="my-5">
         <div className="text-center mb-4">
-          <h4 className="fw-bolder">TRUSTED BY TELECOM COMPANIES LIKE</h4>
+        <div className="some-border mb-3" ></div>
+          <h1 className="fw-bolder">TRUSTED BY IT & TELECOM COMPANIES LIKE</h1>
         </div>
         <Row className="p-2 align-items-center mt-5">
           <Col class="mr-md-1 " xs={6} md={4} lg={2}>
@@ -33,7 +34,7 @@ const Companies = () => {
           </Col>
         </Row>
       </Container>
-    </>
+    </div>
   );
 };
 

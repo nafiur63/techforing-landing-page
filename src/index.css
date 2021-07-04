@@ -49,6 +49,64 @@ ul li::before {
   padding-top: 1rem;
 }
 
+
+
+
+.text-box-card{
+  border: 2px  solid #182F59;
+  border-radius: 8px;
+  height: 110px;
+}
+
+.some-border{
+  background-color: #182F59;
+  height: 6px;
+  width: 148px;
+  margin: auto;
+}
+
+.customer-image{
+  position: absolute;
+  bottom: 30px;
+  margin-left: auto;
+  
+}
+.woman{
+  position: absolute;
+  top:80%;
+  left: 29%;
+}
+
+
+.omg {
+  /* /* position: relative; */
+  padding-top: 3rem;
+  /* margin-top: 50px; */
+  /* width: 300px;
+  /* margin: auto; */
+  background-color: #182F59;  
+  /* border: 10px solid rgb(0, 87, 0);
+   */
+   /* border: 10px solid green; */
+}
+
+.card-image:hover{
+  opacity: 0.7;
+  transition: 0.5s ease;
+}
+
+.buttons{
+  background-color: #182F59 !important;
+}
+
+.buttons:hover{
+  background-color: #376ccf !important;
+}
+
+.customer-box{
+  margin-bottom: 7rem;
+}
+
 /* for sm and more  */
 
 @media (min-width: 576px) {
@@ -67,6 +125,14 @@ ul li::before {
     width: 600px !important;
   }
 
+  .text-box-card{
+    border: 2px  solid #182F59;
+    
+  }
+
+  .third-eye-looks-image{
+    width: 34px;
+  }
   /* ul {
     list-style: none;
   }
@@ -80,5 +146,22 @@ ul li::before {
     width: 1em;
     margin-left: 1em;
   } */
+  .footerButton::after {
+    /* content: "Create an account or login";
+    margin-right: 1rem; */
+   content: "\f061";
+   font-family: "Font Awesome 5 Free";
+   font-style: normal;
+   font-weight: 900;
+   text-decoration: inherit;
+   margin-left: 2rem;
+}
   
+.woman{
+  position: absolute;
+  top:75%;
+  left: 39%;
+}
+
+
  }

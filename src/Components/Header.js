@@ -9,18 +9,18 @@ const Header = () => {
           <img
             src="/techforing-logo.png"
             className="d-inline-block align-top logo"
-            alt="React Bootstrap logo"
+            alt="techforing logo"
           />
         </Navbar.Brand>
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" style={{fontWeight:"bolder"}}>
           <Nav className="me-auto">
-            <Nav.Link href="#home">More</Nav.Link>
-            <Nav.Link href="#link">Services</Nav.Link>
+            <Nav.Link href="#more">More</Nav.Link>
+            <Nav.Link href="#services">Services</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">Pricing</Nav.Link>
-            <Nav.Link href="#memes">Features</Nav.Link>
-            <Nav.Link href="#memes">Resources</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#resources">Resources</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         <Button className="ms-auto navbar-button" variant="outline-primary">

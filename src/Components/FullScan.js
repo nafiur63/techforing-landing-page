@@ -5,6 +5,7 @@ const FullScan = () => {
   return (
     <Container className="text-center my-5">
       <div className="fullscanebox mb-5">
+      <div className="some-border mb-3"></div>
         <h2 className="fw-bolder">WANT A FULL SCAN?</h2>
         <div className="fullscantext my-3">
           Website Vulnerability Free scan performs a passive web security scan
